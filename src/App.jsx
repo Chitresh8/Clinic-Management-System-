@@ -4,6 +4,7 @@ import viteLogo from "/vite.svg";
 import "./App.css";
 import { Login } from "./components/Login/Login";
 import BoxHuntTwo from "../BoxHuntTwo";
+import { StopWatch } from "./components/StopWatch/StopWatch";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -13,6 +14,7 @@ function App() {
       <div>
         <Login />
         <BoxHuntTwo />
+        <StopWatch />
         <a
           href="https://vitejs.dev"
           target="_blank"
